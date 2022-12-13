@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# LTA's traffic API monitoring expressways using React webhooks (useState, useEffect)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
