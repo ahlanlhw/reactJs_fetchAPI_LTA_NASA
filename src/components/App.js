@@ -3,12 +3,8 @@ import './App.css';
 import Header from './header';
 import Footer from './footer';
 import Ltaimg from './lta_img';
+import GetImg from './lta_cameras'
 
-function GetImg(props){
-  return(
-    <img src = {props.src} alt = {props.alt} width = {props.width} height = {props.height}/>
-  )
-};
 function App() {
   return (
     <div className="App">

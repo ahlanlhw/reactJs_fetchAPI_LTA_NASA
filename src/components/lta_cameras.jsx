@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Imager(props){
-    return (
-        <p>{props.cameras}</p>
-    );
-}
-export default Imager;
+function GetImg(props){
+    return(
+      <img key = {props.src} src = {props.src} alt = {props.alt} width = {props.width} height = {props.height}/>
+    )
+  };
+export default GetImg;
