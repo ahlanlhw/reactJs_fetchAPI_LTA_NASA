@@ -4,3 +4,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 API accessed from LTA's data stash.
 i) https://api.data.gov.sg/v1/transport/traffic-images
+ii) website hosted here: https://lta-data-app.web.app/
