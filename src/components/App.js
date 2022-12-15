@@ -1,18 +1,20 @@
-import React from 'react';
-import './App.css';
-import Header from './header';
-import Footer from './footer';
-import Ltaimg from './lta_img';
-import GetImg from './lta_cameras'
+// import React, { createRef } from 'react';
+// import {
+//   createBrowserRouter,
+// } from 'react-router-dom'
+// import './App.css';
+// import Footer from '../pages/footer';
+// import Cams from '../pages/cams'
+// import Example from './example'
 
-function App() {
-  return (
-    <div className="App">
-      <Header/>
-      {Ltaimg()['content'].map((img)=><GetImg src = {img.src} alt = {img.alt} width = {img.width} height = {img.height}/>)}
-      <Footer/>
-    </div>
-  );
-}
+// function App() {
+//   return (
+//     <div className="App">
+//       {/* <Header/> */}
+//       <Cams/>
+//       <Footer/>
+//     </div>
+//   );
+// }
 
-export default App;
+// export default App;
