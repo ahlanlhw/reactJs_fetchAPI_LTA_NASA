@@ -9,15 +9,19 @@ import { Container, Navbar, Nav } from 'react-bootstrap'
 import About from '../pages/about';
 import Cams from '../pages/cams'
 import APOD from '../pages/nasapic'
+import ReturnError from '../pages/error'
 
 const routes =[
   {
     path:'/', name:'Home', element: <About/>, nodeRef:createRef()
   },
-  { path: '/traffic', name: 'LTA Traffic Cams', element: <Cams />, nodeRef: createRef() 
+  { path: '/traffic', name: 'LTA Traffic Cams', element: <Cams />, nodeRef: createRef()
   },
-  { path: '/nasa_apod', name: 'NASA Astronomy Pics of the Day', element: <APOD />, nodeRef: createRef() 
-  }
+  { path: '/nasa_apod', name: 'NASA Astronomy Pics of the Day', element: <APOD />, nodeRef: createRef()
+  },
+  // {
+  //   path: '*', name:"Oops Page not found!",element: <ReturnError/>
+  // }
 ]
 function Example() {
 

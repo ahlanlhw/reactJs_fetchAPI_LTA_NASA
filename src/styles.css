@@ -38,6 +38,7 @@ img.Nasa-img{
   max-width:500px;
   max-height:500px;
   margin: -10px -88px -88px -88px;
+  opacity:.9;
 }
 .img_Container{
   display:inline-block;

@@ -14,10 +14,13 @@ export default function GetNASAPicofDay() {
             }
             getData();
         }
-    ,[])
-    return p.map((img)=>{
+        ,[])
+        return p.map((img)=>{
+            const img_url = img.date.replaceAll("-","").slice(2,);
         return (<>
-        <a href={img.url} title = {img.date+img.explanation}>
+        <a href={`https://apod.nasa.gov/apod/ap${img_url}.html`}
+        title = {img.copyright+img.date+img.explanation}
+        target="_blank" rel="noreferrer">
             <img className="Nasa-img"
             key = {img.url}
             src={img.url}
