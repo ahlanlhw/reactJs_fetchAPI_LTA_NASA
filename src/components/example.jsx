@@ -8,12 +8,15 @@ import { CSSTransition, SwitchTransition } from 'react-transition-group'
 import { Container, Navbar, Nav } from 'react-bootstrap'
 import About from '../pages/about';
 import Cams from '../pages/cams'
+import APOD from '../pages/nasapic'
 
 const routes =[
   {
     path:'/', name:'Home', element: <About/>, nodeRef:createRef()
   },
   { path: '/traffic', name: 'LTA Traffic Cams', element: <Cams />, nodeRef: createRef() 
+  },
+  { path: '/nasa_apod', name: 'NASA Astronomy Pics of the Day', element: <APOD />, nodeRef: createRef() 
   }
 ]
 function Example() {

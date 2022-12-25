@@ -31,4 +31,16 @@
     transform: scale(0.9);
     transition: opacity 300ms, transform 300ms;
   }
-  
+
+img.Nasa-img{
+  width:auto;
+  height:auto;
+  max-width:500px;
+  max-height:500px;
+  margin: -10px -88px -88px -88px;
+}
+.img_Container{
+  display:inline-block;
+  text-align: vertical;
+
+}
